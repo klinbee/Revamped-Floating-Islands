@@ -3,7 +3,7 @@ Datapack that changes the world generation for all biomes to be floating islands
 
 Changes:
 -Adds the normal biome distribution into floating islands.
-\n-And due to biomes being added, structures properly generate.
+-And due to biomes being added, structures properly generate.
 -Made ores more common since there is less terrain.
 -Made diamond/ancient debris vein sizes larger again because of less terrain.
 -Added "oceans" where less terrain generates and more aquifers generate to simulate floating bodies of water.
