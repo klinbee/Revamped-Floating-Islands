@@ -2,17 +2,17 @@
 Datapack that changes the world generation for all biomes to be floating islands, along with some additional changes to help for balancing.
 
 Changes:
--Adds the normal biome distribution into floating islands.
--And due to biomes being added, structures properly generate.
--Made ores more common since there is less terrain.
--Made diamond/ancient debris vein sizes larger again because of less terrain.
--Added "oceans" where less terrain generates and more aquifers generate to simulate floating bodies of water.
--Increased the amount of sugarcane that generates due to less bodies of water.
--Made certain pockets of water not generate in swamps/mangroves due to excessive water pouring.
--Made lavafalls/waterfalls less common due to excessive pouring. (Also limited their y-value).
--Changed the y-value for bastion generation to fit more with the floating islands style generation.
--Changed ancient city generation to work with the constraints of floating island generation.
--Changed the default block for ancient city to be stone, and the default block for warm/lukewarm oceans to be sand/sandstone instead of grass.
+1. Adds the normal biome distribution into floating islands.
+2. And due to biomes being added, structures properly generate.
+3. Made ores more common since there is less terrain.
+4. Made diamond/ancient debris vein sizes larger again because of less terrain.
+5. Added "oceans" where less terrain generates and more aquifers generate to simulate floating bodies of water.
+6. Increased the amount of sugarcane that generates due to less bodies of water.
+7. Made certain pockets of water not generate in swamps/mangroves due to excessive water pouring.
+8. Made lavafalls/waterfalls less common due to excessive pouring. (Also limited their y-value).
+9. Changed the y-value for bastion generation to fit more with the floating islands style generation.
+10. Changed ancient city generation to work with the constraints of floating island generation.
+11. Changed the default block for ancient city to be stone, and the default block for warm/lukewarm oceans to be sand/sandstone instead of grass.
 
 After 1.18, Mojang stopped supporting Floating Islands world types, which is a shame because it's a really cool world type. Even though it is unsupported, it does still exist in the code somewhat, but it is imperfect and doesn't even generate with biomes. My goal was to change this, and even improve on the default by changing the ore distribution for balancing and ocean formation to look cooler and more realistic. 
 
