@@ -8,8 +8,8 @@ Changes:
 1. Adds the normal biome distribution into floating islands.
 2. And due to biomes being added, structures properly generate.
 3. Made ores more common/larger since there is less terrain.
-4. *Added "oceans" where less terrain generates and more aquifers generate to simulate floating bodies of water.
-*V1.2 does not do this.
+4. *Added "oceans" where less terrain generates and more aquifers generate to simulate floating bodies of water. 
+  *V1.2 does not do this.
 
 If there are any specific changes you do not like, let me know, and I can make a specific version that removes these changes. 
 Additionally I could attempt to do a caves world gen (like for the end or overworld), but I myself don't have that much of an interest in it at the moment. Let me know if you are interested. :).
