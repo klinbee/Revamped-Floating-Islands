@@ -1,4 +1,4 @@
-# Floating-Islands-1.18-1.20
+# Floating-Islands-1.19-1.20
 Datapack that changes the world generation for all dimensions to be floating islands, with biomes and structures, along with some additional changes to help for balancing.
 
 After 1.18, Mojang stopped supporting Floating Islands world types, which is a shame because it's a really cool world type. Even though it is unsupported, it does still exist in the code somewhat, but it is imperfect and doesn't even generate with biomes. My goal was to change this, and even improve on the default by changing the ore distribution for balancing and ocean formation to look cooler and more realistic. 
