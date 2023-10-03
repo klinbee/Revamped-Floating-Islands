@@ -1,0 +1,20 @@
+{
+    "pack": {
+        "pack_format": 12,
+        "description": [
+      {
+        "text": "Revamped Floating Islands",
+        "color": "#ffa71a"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Quidvio",
+        "color": "#ffc76f"
+      }
+    ]
+    }
+}
