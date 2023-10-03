@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:mul",
+    "argument1": {
+        "type": "y_clamped_gradient",
+        "from_value": 0,
+        "to_value": 1,
+        "from_y": 52,
+        "to_y": 63
+    },
+    "argument2": {
+        "type": "minecraft:mul",
+        "argument1": -12,
+        "argument2": {
+            "type": "minecraft:add",
+            "argument1": 0.05,
+            "argument2": {
+                "type": "minecraft:mul",
+                "argument1": -1,
+                "argument2": {
+                    "type": "minecraft:abs",
+                    "argument": "minecraft:overworld/ridges"
+                }
+            }
+        }
+    }
+}

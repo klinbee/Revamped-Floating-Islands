@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:add",
+    "argument1": "minecraft:floating/ocean_floor",
+    "argument2": {
+        "type": "minecraft:clamp",
+        "input": {
+            "type": "minecraft:add",
+            "argument1": "minecraft:util/ocean_terrain_reducer",
+            "argument2": "minecraft:floating/islands"
+        },
+        "max": 10,
+        "min": -0.1
+    }
+}

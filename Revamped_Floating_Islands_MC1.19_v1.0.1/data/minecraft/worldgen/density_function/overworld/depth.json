@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:range_choice",
+    "input": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_value": 1,
+        "to_value": 0,
+        "from_y": -61,
+        "to_y": -61
+    },
+    "min_inclusive": 0,
+    "max_exclusive": 1,
+    "when_in_range": "minecraft:overworld/cave_biomes",
+    "when_out_of_range": {
+        "type": "minecraft:range_choice",
+        "input": "minecraft:overworld/continents",
+        "min_inclusive": -1.049,
+        "max_exclusive": -0.19,
+        "when_in_range": {
+            "type": "minecraft:add",
+            "argument1": -0.5,
+            "argument2": {
+                "type": "y_clamped_gradient",
+                "from_value": 1.1,
+                "to_value": -1,
+                "from_y": -24,
+                "to_y": 96
+            }
+        },
+        "when_out_of_range": "minecraft:overworld/biomes_at_void"
+    }
+}

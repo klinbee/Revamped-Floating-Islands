@@ -1,0 +1,5 @@
+{
+    "type": "minecraft:add",
+    "argument1": "minecraft:util/lower_aquifers",
+    "argument2": 0
+}
