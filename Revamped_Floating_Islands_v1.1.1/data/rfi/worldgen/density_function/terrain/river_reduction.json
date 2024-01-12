@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_once",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "minecraft:overworld/ridges",
+        "points": [
+          {
+            "location": -2,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": -0.08,
+            "derivative": 0,
+            "value": -0.075
+          },
+          {
+            "location": 0,
+            "derivative": 0,
+            "value": -3
+          },
+          {
+            "location": 0.08,
+            "derivative": 0,
+            "value": -0.075
+          },
+          {
+            "location": 2,
+            "derivative": 0,
+            "value": 0
+          }
+        ]
+      }
+    }
+  }
+}

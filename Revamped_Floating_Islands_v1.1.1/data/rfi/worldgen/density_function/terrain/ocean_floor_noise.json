@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_once",
+    "argument": {
+      "type": "minecraft:abs",
+      "argument": {
+        "type": "minecraft:noise",
+        "noise": "minecraft:gravel",
+        "xz_scale": 8,
+        "y_scale": 0
+      }
+    }
+  }
+}

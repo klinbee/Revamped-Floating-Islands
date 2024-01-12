@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "rfi:aquifer/river_noise",
+  "max_exclusive": 0,
+  "min_inclusive": -1,
+  "when_in_range": "rfi:aquifer/lower",
+  "when_out_of_range": "rfi:aquifer/upper"
+}

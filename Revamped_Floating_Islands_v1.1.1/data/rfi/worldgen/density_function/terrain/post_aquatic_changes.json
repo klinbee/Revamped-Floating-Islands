@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": "rfi:terrain/base",
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": "rfi:terrain/river_reduction",
+        "argument2": "rfi:terrain/ocean_reduction"
+      }
+    },
+    "min": -0.1,
+    "max": 10
+  },
+  "argument2": "rfi:terrain/ocean_floor"
+}

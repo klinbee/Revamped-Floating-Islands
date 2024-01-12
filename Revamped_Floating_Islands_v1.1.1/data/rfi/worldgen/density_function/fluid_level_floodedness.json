@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:overworld/continents",
+  "min_inclusive": -1.045,
+  "max_exclusive": -0.2,
+  "when_in_range": "rfi:aquifer/lower",
+  "when_out_of_range": {
+    "type": "minecraft:range_choice",
+    "input": "rfi:rivers",
+    "min_inclusive": 0,
+    "max_exclusive": 1,
+    "when_out_of_range": "rfi:aquifer/rivers",
+    "when_in_range": "rfi:aquifer/generic"
+  }
+}

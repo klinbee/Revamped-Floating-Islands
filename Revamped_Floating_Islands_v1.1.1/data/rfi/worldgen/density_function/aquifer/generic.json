@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": -48,
+  "max_exclusive": 92,
+  "when_in_range": "rfi:aquifer/generic_noise",
+  "when_out_of_range": -10
+}

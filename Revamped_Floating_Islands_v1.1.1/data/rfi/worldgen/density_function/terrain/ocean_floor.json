@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:overworld/continents",
+  "min_inclusive": -1.045,
+  "max_exclusive": -0.25,
+  "when_in_range": {
+    "type": "minecraft:range_choice",
+    "input": "minecraft:y",
+    "min_inclusive": 27,
+    "max_exclusive": 39,
+    "when_in_range": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 35,
+        "to_y": 39,
+        "from_value": 0,
+        "to_value": -0.75
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": {
+          "type": "minecraft:y_clamped_gradient",
+          "from_y": 27,
+          "to_y": 35,
+          "from_value": -0.5,
+          "to_value": 0.25
+        },
+        "argument2": "rfi:terrain/ocean_floor_noise"
+      }
+    },
+    "when_out_of_range": 0
+  },
+  "when_out_of_range": 0
+}

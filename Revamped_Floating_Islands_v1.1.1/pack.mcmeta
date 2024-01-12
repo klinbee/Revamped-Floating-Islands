@@ -1,0 +1,35 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Revamped Floating Islands",
+        "color": "#ffa71a"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Quidvio",
+        "color": "#ffc76f"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [
+      15,
+      999
+    ]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [
+          999,
+          999
+        ],
+        "directory": "overlay1"
+      }
+    ]
+  }
+}
