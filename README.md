@@ -1,3 +1,5 @@
+## A lot of this is out of date, but the general concept is the same.
+
 # Floating-Islands-1.19-1.20
 Datapack that changes the world generation into Floating Islands, with biomes and structures, along with some additional changes to help for balancing (like ore distribution, see Minor Changes).
 I have also made compatible datapacks that just change the nether and the end into Floating Islands, they are in this as well. 
