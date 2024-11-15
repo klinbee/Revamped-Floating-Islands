@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": 16,
+  "max_exclusive": 92,
+  "when_in_range": {
+    "type": "minecraft:mul",
+    "argument1": 0.84,
+    "argument2": {
+      "type": "minecraft:noise",
+      "noise": "minecraft:vegetation",
+      "xz_scale": 2,
+      "y_scale": 2
+    }
+  },
+  "when_out_of_range": -10
+}
