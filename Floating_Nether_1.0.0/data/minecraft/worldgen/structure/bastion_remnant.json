@@ -7,14 +7,7 @@
   "start_pool": "minecraft:bastion/starts",
   "size": 6,
   "start_height": {
-    "type": "minecraft:trapezoid",
-    "min_inclusive": {
-      "absolute": 32
-    },
-    "max_inclusive": {
-      "absolute": 76
-    },
-    "plateau": 20
+    "absolute": 33
   },
   "max_distance_from_center": 80,
   "use_expansion_hack": false
