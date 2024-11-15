@@ -2,7 +2,7 @@
   "pack": {
     "description": [
       {
-        "text": "Floating Nether Add-on",
+        "text": "Floating Islands Nether",
         "color": "#ffa71a"
       },
       "\n",
@@ -11,23 +11,17 @@
         "color": "#AAAAAA"
       },
       {
-        "text": "Quidvio",
+        "text": "Klinbee",
         "color": "#ffc76f"
       }
     ],
     "pack_format": 15,
-    "supported_formats": [
-      15,
-      999
-    ]
+    "supported_formats": [15, 999]
   },
   "overlays": {
     "entries": [
       {
-        "formats": [
-          999,
-          999
-        ],
+        "formats": [999, 999],
         "directory": "overlay1"
       }
     ]
