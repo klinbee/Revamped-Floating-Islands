@@ -11,24 +11,34 @@
         "color": "#AAAAAA"
       },
       {
-        "text": "Quidvio",
-        "color": "#ffc76f"
+        "text": "Klinbee",
+        "color": "#ffbbbb"
       }
     ],
     "pack_format": 15,
-    "supported_formats": [
-      15,
-      999
-    ]
+    "min_format": 15,
+    "max_format": 999,
+    "supported_formats": [15, 999]
   },
   "overlays": {
     "entries": [
       {
-        "formats": [
-          41,
-          999
-        ],
-        "directory": "overlay1"
+        "formats": [41, 999],
+        "min_format": 41,
+        "max_format": 999,
+        "directory": "overlay_1_20_5"
+      },
+      {
+        "formats": [80, 999],
+        "min_format": 80,
+        "max_format": 999,
+        "directory": "overlay_1_21_6"
+      },
+      {
+        "formats": [88, 999],
+        "min_format": 88,
+        "max_format": 999,
+        "directory": "overlay_1_21_9"
       }
     ]
   }
