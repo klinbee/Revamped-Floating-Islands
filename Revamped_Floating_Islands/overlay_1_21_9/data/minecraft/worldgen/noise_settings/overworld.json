@@ -73,7 +73,10 @@
     "erosion": "minecraft:overworld/erosion",
     "depth": "rfi:depth",
     "ridges": "minecraft:overworld/ridges",
-    "preliminary_surface_level": 2048,
+    "preliminary_surface_level": {
+      "type": "minecraft:constant",
+      "argument": 2048
+    },
     "final_density": "rfi:terrain/final",
     "vein_toggle": {
       "type": "minecraft:interpolated",
